@@ -65,6 +65,9 @@ Before building the project, ensure you have the following installed:
 
 ```text
 TrafficCore/
+├── demos/                     # Header files (Declarations)
+│   └── vehicle.h                  # Vehicle physics, AI & collision logic
+│
 ├── include/                     # Header files (Declarations)
 │   ├── app.h                      # Main application wrapper & lifecycle
 │   ├── basicmap.h                 # Static map geometry and rendering
@@ -97,8 +100,12 @@ TrafficCore/
 │   ├── ui_settings.png
 │   └── vehicles_closeup.png
 │
+├── demos/                       # Video Demonstrations
+│   └── demo.mp4                   # Simulation features showcase
+│
 ├── tests/                       # Testing suite
 │   └── unit_tests.cpp             # Unit tests for core components
 │
+├── Rapport TRAFFIC_CORE.pdf     # Final Project Report
 ├── Makefile                     # Build instructions
 └── README.md                    # Project documentation
