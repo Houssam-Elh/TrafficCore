@@ -25,6 +25,7 @@ A wide range of vehicle classes with unique behaviors and physics:
 - **Civilian:** Cars, Buses, Trucks.
 - **Service:** Taxis (with roof lights), Police Cars (with active sirens).
 - **Two-Wheelers:** Motorcycles with tilt mechanics.
+
 ![Vehicle Types Showcase](screenshots/vehicles_closeup.png)
 
 ### 🛠️ Dynamic Engine
@@ -62,7 +63,6 @@ Before building the project, ensure you have the following installed:
 ---
 
 ## 📂 Project Structure
-## 📂 Detailed Project Structure
 
 ```text
 TrafficCore/
