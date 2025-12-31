@@ -54,7 +54,7 @@ TEST_CASE(TestVehicleSpawner) {
     std::vector<std::unique_ptr<Vehicle>> vehicles;
     
     // Attempt to spawn a vehicle at Node 1
-    // Assuming your Spawner class has a SpawnSpecific method [cite: 58]
+    // Assuming your Spawner class has a SpawnSpecific method
     // If not, this test verifies the logic of adding to the vector
     vehicles.push_back(std::make_unique<Taxi>((Vector3){0,0,0}, 2));
     
@@ -88,6 +88,8 @@ int main() {
     InitWindow(100, 100, "Unit Tests");
     SetTargetFPS(60);
 
+    // need this commit to test:
+    // & "C:\raylib\w64devkit\bin\mingw32-make.exe" test
     std::cout << "--- STARTING PROJECT UNIT TESTS ---\n";
     
     RUN_TEST(TestRoadGraphAddNode);
