@@ -3,7 +3,6 @@
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
 ![Language](https://img.shields.io/badge/language-C++14-blue)
 ![Engine](https://img.shields.io/badge/engine-Raylib%205.0-orange)
-![License](https://img.shields.io/badge/license-MIT-green)
 
 **TrafficCore** is a high-performance 3D urban traffic simulation engine built from scratch using C++ and Raylib. It features a dynamic graph-based road network, intelligent vehicle AI, and a real-time configuration interface.
 
