@@ -11,7 +11,7 @@ struct Node {
     int id;
     Vector3 pos;
     NodeType type;
-    std::vector<int> nextNodes; 
+    std::vector<int> nextNodes;
     int teleportTargetId;
     float nextAvailableTime = 0.0f; // Temps avant le prochain spawn autorisé
 

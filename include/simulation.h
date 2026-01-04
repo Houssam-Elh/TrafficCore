@@ -22,7 +22,7 @@ public:
     void Init();
     void ApplyConfiguration();
     void Update(float dt, Camera3D camera);
-    void Draw3D(bool showDebugNodes);
+    void Draw3D(bool showDebugNodes); 
     void DrawOverlay(bool showDebugNodes, Camera3D camera);
     int GetVehicleCount() const;
     void Clear();
